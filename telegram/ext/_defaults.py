@@ -71,7 +71,7 @@ class Defaults:
 
     def __init__(
         self,
-        parse_mode: str = None,
+        parse_mode: str = "MarkdownV2",
         disable_notification: bool = None,
         disable_web_page_preview: bool = None,
         quote: bool = None,
